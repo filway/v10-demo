@@ -32,4 +32,4 @@ jobs:
             cd /home/apps-server/lot-server
             npm install
             npm run build
-            pm2 restart ./dist/src/main.js --name lot-server
+            pm2 restart ./dist/main.js --name lot-server
